@@ -9,7 +9,7 @@ import { AvForm, AvField } from "availity-reactstrap-validation";
 // $business_info[$i] = ["name" => $row['name'], "type" => $row['type'], "street" => $row['street'], "town" => $row['town'], "zip" => $row['zip'], "county" => $row['county']];
 
 const BusinessSearch = () => {
-  let url = "/react-backend/displayAllBusiness.php";
+  let url = "https://app.infinityfree.net/accounts/epiz_27371223/http://seniorproject430.epizy.com/webHostingTest-master/react-backend/displayAllBusiness.php";
   let postUrl = "/react-backend/selectBusinessReview.php";
   let searchUrl = "/react-backend/searchBusiness.php";
   const [formData, setFormdata] = useState({
